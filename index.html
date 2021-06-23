@@ -1,0 +1,61 @@
+<!--
+ * @Description: 
+ * @Autor: ZmSama
+ * @Date: 2021-06-22 09:52:09
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="top-bar">
+        <i class="fas fa-angle-down"></i>
+        <span>Now Playing</span>
+        <i class="fas fa-ellipsis-h"></i>
+      </div>
+
+      <div class="img-area">
+        <img src="./img/music1.jpg" alt="" />
+      </div>
+      <div class="song-details">
+        <p class="name">Beauz & Jvna -Crazy</p>
+        <p class="artist">Beauz & jvna</p>
+      </div>
+      <div class="progress-area">
+        <div class="progress-bar"></div>
+        <div class="timer">
+          <span class="current">0:20</span>
+          <span class="duration">3:40</span>
+        </div>
+        <audio id="main-audio" src=""></audio>
+      </div>
+      <div class="controls">
+        <i id="repeat-plist" title="顺序播放" class="fas fa-redo-alt"></i>
+        <i id="prev" class="fas fa-backward"></i>
+        <div class="play-pause">
+          <i class="fas fa-play"></i>
+        </div>
+        <i id="next" class="fas fa-forward"></i>
+        <i id="more-music" class="fas fa-list"></i>
+      </div>
+
+      <div class="music-list">
+        <div class="header">
+          <div class="row">
+            <i class="fas fa-list"></i>
+            <span>Music list</span>
+          </div>
+          <i id="close" class="fas fa-times"></i>
+        </div>
+        <ul></ul>
+      </div>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+</html>
